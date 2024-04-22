@@ -1,0 +1,64 @@
+body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: flex;
+}
+/* Basic styling for the header */
+.header {
+    background-color: #031492;
+    color: #fff;
+    padding: 20px 0;
+}
+/* Centering and styling navigation */
+.nav {
+    text-align: center;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-item a:hover {
+    color: #ccc;
+}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    color: hsl(0, 0%, 18%);
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    text-justify: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+hr {
+    margin-top: 20px;
+    border: solid;
+    border-top: 1px solid hsl(236, 94%, 55%);
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 100px;
+}
+body {
+    /* Background color */
+    background-color: #e0e0e0;
+}
